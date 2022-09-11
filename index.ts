@@ -15,8 +15,7 @@ function launch(containerId: string) {
         },
         scene: [BootScene, PlayScene],
         scale: {
-            mode: Phaser.Scale.RESIZE,
-            width: '100%'
+            mode: Phaser.Scale.ScaleModes.RESIZE,
         }
     });
 }
