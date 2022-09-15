@@ -2,6 +2,7 @@ import Phaser from "phaser";
 import BootScene from "./scenes/boot-scene";
 import PlayScene from "./scenes/play-scene";
 
+// foomador
 function launch(containerId: string) {
     return new Phaser.Game({
         type: Phaser.AUTO,
